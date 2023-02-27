@@ -248,7 +248,7 @@ const AddScholarship = () => {
     event.preventDefault();
     console.log(formData);
     // TODO: Submit form to backend
-    await fetch('https://scholerships.onrender.com/api/scholarship/', {
+    await fetch('http://localhost:3000/api/scholarship/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
