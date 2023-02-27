@@ -48,7 +48,7 @@ const SignIn = () => {
     event.preventDefault();
     console.log(formData);
     // TODO: Submit form to backend
-    await fetch('http://localhost:3000/api/organisation/login', {
+    await fetch('https://scholerships.onrender.com/api/organisation/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
